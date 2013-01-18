@@ -1,9 +1,9 @@
 AdColony Android SDK
 ====================
-- Version 1.9.11 (October 9, 2012)
+- Version 1.9.12 (January 10, 2013)
 
 
-AdColony 1.9.11 SDK Package Contents
+AdColony 1.9.12 SDK Package Contents
 ------------------------------------
 1. AdColonyLibrary (Android)
    a. adcolony.jar

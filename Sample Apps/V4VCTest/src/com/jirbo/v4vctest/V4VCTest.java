@@ -17,8 +17,10 @@ import com.jirbo.adcolony.*;
 public class V4VCTest extends Activity 
   implements AdColonyV4VCListener
 {
-  final static String APP_ID  = "app4dc1bc42a5529";
-  final static String ZONE_ID = "z4dc1fabebecec";
+  //final static String APP_ID  = "app4dc1bc42a5529";
+  //final static String ZONE_ID = "z4dc1fabebecec";
+  final static String APP_ID  = "appd592e229fac54eff9b9f79";
+  final static String ZONE_ID = "vz7e5eb6bb550b45038671f1";
 
   Properties properties;
   AdColonyVideoAd ad;

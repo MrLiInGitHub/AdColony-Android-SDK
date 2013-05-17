@@ -17,10 +17,8 @@ import com.jirbo.adcolony.*;
 public class V4VCTest extends Activity 
   implements AdColonyV4VCListener
 {
-  //final static String APP_ID  = "app4dc1bc42a5529";
-  //final static String ZONE_ID = "z4dc1fabebecec";
-  final static String APP_ID  = "appd592e229fac54eff9b9f79";
-  final static String ZONE_ID = "vz7e5eb6bb550b45038671f1";
+  final static String APP_ID  = "app4dc1bc42a5529";
+  final static String ZONE_ID = "z4dc1fabebecec";
 
   Properties properties;
   AdColonyVideoAd ad;
@@ -37,7 +35,9 @@ public class V4VCTest extends Activity
     loadProperties();
 
     // Configure ADC once early on before any other ADC calls.
-    AdColony.configure( this, "1.0", APP_ID, ZONE_ID );
+    AdColony.configure( this, "version:1.0,store:google", APP_ID, ZONE_ID );
+    //   version - arbitrary application version
+    //   store   - google or amazon
 
     // Disable rotation if not on a tablet-sized device (note: not 
     // necessary to use AdColony).

@@ -26,7 +26,10 @@ public class MultiZoneTest extends Activity
   {
     super.onCreate(savedInstanceState);
 
-    AdColony.configure( this, "1.0",
+    AdColony.configure( this, 
+        "version:1.0,store:google",
+          //   version - arbitrary application version
+          //   store   - google or amazon
         APP_ID,
         ZONE_1, ZONE_2, ZONE_3
       );

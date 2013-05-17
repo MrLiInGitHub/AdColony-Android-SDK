@@ -27,7 +27,10 @@ public class VideoInterstitialTest extends Activity
     super.onCreate(savedInstanceState);
 
     // Ad Colony Demo Video
-    AdColony.configure( this, "1.0", APP_ID, ZONE_ID );
+
+    AdColony.configure( this, "version:1.0,store:google", APP_ID, ZONE_ID );
+    //   version - arbitrary application version
+    //   store   - google or amazon
 
     // Ads don't play on Gen 1 devices by default because of the danger of crashing
     // the app due to running out of memory.  Uncomment the following line to

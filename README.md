@@ -18,7 +18,7 @@ Contains:
   * VideoInterstitialDemo
 * Library
   * adcolony.jar
-* README.md
+* W-9 Form.pdf
 
 
 Getting Started with AdColony:

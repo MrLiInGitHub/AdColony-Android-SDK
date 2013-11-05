@@ -15,7 +15,7 @@
           android:src="@drawable/adc"
   />
 <Button android:id ="@+id/video_button"
-  android:text="Video With VC"
+  android:text="Loading..."
   android:layout_width="wrap_content"
   android:layout_height="wrap_content"
   android:background="@drawable/button"

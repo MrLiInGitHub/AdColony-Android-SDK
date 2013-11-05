@@ -24,7 +24,6 @@
      
         <activity android:name="com.jirbo.adcolony.AdColonyOverlay" 
           android:configChanges="keyboardHidden|orientation|screenSize"
-          android:windowSoftInputMode="adjustNothing"
           android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
         <activity android:name="com.jirbo.adcolony.AdColonyFullscreen" 
           android:configChanges="keyboardHidden|orientation|screenSize"

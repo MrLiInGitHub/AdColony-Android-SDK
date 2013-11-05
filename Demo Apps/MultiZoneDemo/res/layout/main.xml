@@ -20,7 +20,7 @@
     android:text=" "
     />
 <Button android:id ="@+id/zone1"
-  android:text="Video Zone 1"
+  android:text="Loading..."
   android:layout_width="wrap_content"
   android:layout_height="wrap_content"
   android:background="@drawable/button"
@@ -30,7 +30,7 @@
   android:textSize="30sp"
 />
 <Button android:id ="@+id/zone2"
-  android:text="Video Zone 2"
+  android:text="Loading..."
   android:layout_width="wrap_content"
   android:layout_height="wrap_content"
   android:background="@drawable/button"
@@ -40,7 +40,7 @@
   android:textSize="30sp"
 />
 <Button android:id ="@+id/zone3"
-  android:text="Video Zone 3"
+  android:text="Loading..."
   android:layout_width="wrap_content"
   android:layout_height="wrap_content"
   android:background="@drawable/button"

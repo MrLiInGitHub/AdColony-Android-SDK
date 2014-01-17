@@ -1,7 +1,7 @@
 AdColony Android SDK
 ==================================
-Modified: December 5, 2013  
-SDK Version: 2.0.5  
+Modified: January 15, 2014  
+SDK Version: 2.0.6  
 
 
 To Download:

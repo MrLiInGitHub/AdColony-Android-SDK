@@ -5,6 +5,9 @@ import android.content.pm.ActivityInfo;
 import android.os.*; 
 import android.util.Log;
 import android.view.*;  
+import android.webkit.ValueCallback;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.*;
 
 import com.jirbo.adcolony.*;
@@ -24,7 +27,7 @@ public class VideoInterstitialDemo extends Activity
   public void onCreate( Bundle savedInstanceState )
   {
     super.onCreate(savedInstanceState);
-
+    
     AdColony.configure( this, "version:1.0,store:google", APP_ID, ZONE_ID );
     // version - arbitrary application version
     // store   - google or amazon

@@ -33,8 +33,8 @@ public class V4VCDemo extends Activity
     super.onCreate(savedInstanceState);
 
     // App-specific - load our accumulated total amount of virtual currency.
-    loadProperties();
-
+    loadProperties(); 
+    
     // Configure ADC once early before any other ADC calls (except setCustomID/setDeviceID).
     AdColony.configure( this, "version:1.0,store:google", APP_ID, ZONE_ID );
     // version - arbitrary application version

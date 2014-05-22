@@ -5,9 +5,6 @@ import android.content.pm.ActivityInfo;
 import android.os.*; 
 import android.util.Log;
 import android.view.*;  
-import android.webkit.ValueCallback;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
 import android.widget.*;
 
 import com.jirbo.adcolony.*;

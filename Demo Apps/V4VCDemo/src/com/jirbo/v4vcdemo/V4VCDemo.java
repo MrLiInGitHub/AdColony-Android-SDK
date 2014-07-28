@@ -73,7 +73,7 @@ public class V4VCDemo extends Activity
     		v4vc_ad = new AdColonyV4VCAd( ZONE_ID ).withListener( V4VCDemo.this ).withConfirmationDialog().withResultsDialog();
     		            
     		// Debug pop-up showing the number of plays today and the playcap.
-    		Toast.makeText( V4VCDemo.this, ""+v4vc_ad.getRewardName(), Toast.LENGTH_SHORT ).show();
+    		//Toast.makeText( V4VCDemo.this, ""+v4vc_ad.getRewardName(), Toast.LENGTH_SHORT ).show();
 
     		String status = "Available views: " + v4vc_ad.getAvailableViews();
     		Toast.makeText( V4VCDemo.this, status, Toast.LENGTH_SHORT ).show();

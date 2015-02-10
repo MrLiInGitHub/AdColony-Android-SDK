@@ -1,16 +1,7 @@
 AdColony Android SDK
 ==================================
-Modified: December 19, 2014  
-SDK Version: 2.2.0
-
-Important Changes:
-----------------------------------
-1. You must now place the armeabi folder in your project's libs folder.
-2. You should include the VIBRATE permission in your AndroidManifest.xml to allow haptic-enabled videos.
-3. Added support for haptic-enhanced videos.
-4. Added support for IAP Promo Ads.
-5. Minor bug fixes and stability improvements.  
-
+Modified: February 10, 2014  
+SDK Version: 2.2.1 
 
 To Download:
 ----------------------------------

@@ -1,7 +1,7 @@
 AdColony Android SDK
 ==================================
-Modified: June 1, 2015  
-SDK Version: 2.2.2 
+Modified: October 8, 2015  
+SDK Version: 2.3.0 
 
 To Download:
 ----------------------------------
@@ -12,10 +12,9 @@ The simplest way to obtain the AdColony Android SDK is to click the "Download ZI
 Contains:
 ----------------------------------
 * Demo Apps
-  * MultiZoneDemo
   * V4VCDemo
-  * VideoInterstitialDemo
-  * AdColonyInstantFeedAdsDemo
+  * InterstitialDemo
+  * InstantFeedDemo
 * Library
   * adcolony.jar
   * armeabi

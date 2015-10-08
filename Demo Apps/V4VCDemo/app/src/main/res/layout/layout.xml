@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".V4VCActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageview"
+        android:layout_centerInParent="true"
+        android:src="@drawable/v4vctext" />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="68dp"
+        android:enabled="false"
+        android:id="@+id/button"
+        android:background="@drawable/v4vcbuttonxml"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@id/imageview"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coin"
+        android:src="@drawable/coin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignRight="@id/imageview"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!-- Force 32bpp -->
+    <VideoView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/videoView" />
+
+
+</RelativeLayout>
